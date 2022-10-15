@@ -77,7 +77,7 @@ const wait_1 = __webpack_require__(521);
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            const ms = 10;
+            const ms = 10000;
             core.debug(`Waiting ${ms} milliseconds ...`);
             core.debug(new Date().toTimeString());
             yield wait_1.wait(parseInt(ms, 10));
